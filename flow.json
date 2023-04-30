@@ -1,1 +1,56 @@
-[]
+[
+    {
+        "id": "0e7192d93667e1f9",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "d9bace2c3ce7a83f",
+        "type": "inject",
+        "z": "0e7192d93667e1f9",
+        "name": "Sensor",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "v": "",
+                "vt": "num"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 290,
+        "y": 800,
+        "wires": [
+            [
+                "f57f845f59796ae8"
+            ]
+        ]
+    },
+    {
+        "id": "f57f845f59796ae8",
+        "type": "debug",
+        "z": "0e7192d93667e1f9",
+        "name": "debug 1",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 540,
+        "y": 800,
+        "wires": []
+    }
+]
