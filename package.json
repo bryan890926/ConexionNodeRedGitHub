@@ -1,0 +1,12 @@
+{
+    "name": "PracticaConexonNodeRedAWS",
+    "description": "Conexion de Node RED con AWS Y ESP32",
+    "version": "0.0.1",
+    "dependencies": {},
+    "node-red": {
+        "settings": {
+            "flowFile": "flow.json",
+            "credentialsFile": "flow_cred.json"
+        }
+    }
+}
